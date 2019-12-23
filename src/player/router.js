@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getPlayers, sortPlayers, findPlayers } from './controllers';
+import { getPlayers, sortPlayers, findPlayers } from './controller';
 
 const router = new Router();
 

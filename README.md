@@ -1,8 +1,9 @@
 # nodejs-test
 
-Create a simple API to return tennis player stats using Node.Js
+Create a simple API to return tennis player stats using Node.js
 
 For completing the following tasks, use the following dataset:
+
 - https://alivebyacadomia.github.io/headtohead.json
 
 ### Task 1
@@ -19,19 +20,23 @@ player is matching.
 
 As the players data changes from time to time, change your code so that the players are fetched
 from the following end point for every API call:
+
 - https://alivebyacadomia.github.io/headtohead.json
 
 ## Installation
-``` bash
+
+```bash
 > yarn
 ```
 
 ## Launch tests
-``` bash
+
+```bash
 > yarn test
 ```
 
 ## Start server
-``` bash
+
+```bash
 > yarn start
 ```

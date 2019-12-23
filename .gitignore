@@ -62,7 +62,6 @@ typings/
 # next.js build output
 .next
 database.sqlite
-test/*
 !test/test.js
 jsdoc/
 docs/
