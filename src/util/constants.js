@@ -1,8 +1,4 @@
-require('dotenv').config();
-
-const { SERVER_PORT } = process.env || 3001;
-
-const { END_POINT } =
-  process.env || 'https://alivebyacadomia.github.io/headtohead.json';
+const SERVER_PORT = 3001;
+const END_POINT = 'https://alivebyacadomia.github.io/headtohead.json';
 
 export { SERVER_PORT, END_POINT };
